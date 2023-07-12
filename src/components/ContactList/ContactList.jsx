@@ -7,7 +7,6 @@ const ContactList = ({ contacts, handleDelete }) => {
     <div className={css.listSection}>
       <h2 className={css.contactsTitle}>Contacts</h2>
       <ul>
-        {' '}
         {contacts.map(({ id, name, number }) => (
           <ContactListItem
             key={id}

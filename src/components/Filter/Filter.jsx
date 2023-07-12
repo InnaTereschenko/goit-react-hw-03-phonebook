@@ -15,7 +15,6 @@ const Filter = ({filter, handleInputChange}) => (
   </div>
 );
 
-
 Filter.propTypes = {
   filter: PropTypes.string.isRequired,
   handleInputChange: PropTypes.func.isRequired,
